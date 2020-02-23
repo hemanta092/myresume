@@ -46,7 +46,7 @@ background-size: cover;
   background-color: #08d9d6;
 }
 .name{
-  font-size: 5rem;
+  font-size: 10vw;
   font-weight: 700;
   color: white;
   font-family: 'Volkhov', serif;
@@ -130,7 +130,7 @@ background-size: cover;
 }
 .mainhead{
   color:#08d9d6;
-  font-size: 4rem;
+  font-size: 8vw;
   padding-top: 100px;
   font-weight: 300;
   font-style: normal;
@@ -142,10 +142,7 @@ border-color: #c9d6df;
 border-width: 3px;
 margin-bottom: 80px;
 }
-.row{
-  margin: 50px auto;
-  width:80%;
-}
+
 .profileimg{
   border-style: solid;
   border-width: 8px;
@@ -159,9 +156,9 @@ margin-bottom: 80px;
   width:100%;
 }
 .education-header{
-margin-left:15%;
+
 font-weight: 200;
-margin-bottom: 0;
+margin-bottom: 10px;
 }
 
 .experience-period{
@@ -179,25 +176,39 @@ margin-bottom: 0;
   float: left;
   width: 100%;
 }
+.container{
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+@media (max-width: 767px)
+.container {
+  padding: 60px 20px;
+min-width: 280px;  }
+
 
 .material-icons{
-  font-size: 12px;
+  font-size: 20px;
 
 }
 .material-icon-bw{
   color:#08d9d6;
 }
-.material-icon:hover{
-  margin:0 2px;
-}
+
 .ability-title{
   display: inline-block;
-  text-align: left;
   float: left;
-  padding-left: 25px;
+  padding-left: auto;
+
 }
 .ability-score{
   float:right;
+
+}
+.no-bullets{
+  margin: 0;
+  padding: 0;
 }
 .ability{
   margin-left: 20%;
@@ -240,7 +251,7 @@ font-style: normal;
 
 #abilities ul > li{margin:20px auto;}
 #abilities ul > li:hover { background: #F2F2F2; }
-#abilities ul > li:hover .ability-score .material-icons { margin-left: 3px;  }
+#abilities ul > li:hover .ability-score .material-icons { margin-left: 3px;  font-size: 24px;}
 #abilities ul > li {
     min-height: 30px;
     padding: 3px 0;
