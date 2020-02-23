@@ -45,12 +45,12 @@ background-size: cover;
   background-color: #08d9d6;
 }
 .name{
-  font-size: 6vw;;
+  font-size: 50px;
   font-weight: 700;
   color: white;
   font-family: 'Volkhov', serif;
   margin:0 auto;
-  width:80%;
+  width:100%;
 
 
 }
@@ -129,7 +129,7 @@ background-size: cover;
 }
 .mainhead{
   color:#08d9d6;
-  font-size: 8vw;
+  font-size: 40px;
   padding-top: 100px;
   font-weight: 300;
   font-style: normal;
@@ -230,8 +230,11 @@ font-style: normal;
   height: 40px;
   width: 40px;
   border-radius: 10%;
-  margin-right: 20px;
-  margin-left: 40%;
+  margin-right: 10px;
+
+}
+.contact-row{
+ justify-content: center;
 }
 
 .contact-link{
