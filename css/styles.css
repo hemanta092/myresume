@@ -27,12 +27,28 @@ h4{
 /* CLASS */
 .jumbo{
 position: relative;
-height:46.87rem;
+background-image: url("background.jpg");
+margin: 0;
+padding: 0;
+background-repeat: no-repeat;
+
+background-size: cover;
+
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: .6;
+  z-index: 2;
+  background-color: #08d9d6;
 }
 .name{
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 700;
-  color: #08d9d6;
+  color: white;
   font-family: 'Volkhov', serif;
   margin:0 auto;
   width:100%;
@@ -47,29 +63,42 @@ height:46.87rem;
   color: #71c9ce;
 
 }
-.container-fluid{
-  position: absolute;
-  top:250px;
+.container{
+  position: relative;
+  top:28%;
+  z-index: 4;
+  text-align: center;
 }
 .lead{
   font-size: 2rem;
   padding-top: 20px;
   text-align: center;
 }
-.down-arrow{
+/* .down-arrow{
   position:absolute;
   height: 6rem;
   width: 7.3rem;
   right:10.3%;
   bottom:0;
   background-color: black;
-}
+  display: block;
+} */
+/* .scroll-down{
+  position: absolute;
+  display: block;
+  z-index: 6;
+  height: 6rem;
+  right:10.5%;
+  width: 7.3rem;
+  bottom: 0;
+  background-color: #434242;
+  text-align: center;
+} */
 
 
 .navbar{
   width:80%;
   margin:0 auto;
-  bottom:15px;
   border-style: none groove groove groove;
   border-width: 5px;
 
@@ -152,7 +181,7 @@ margin-bottom: 0;
 }
 
 .material-icons{
-  font-size: 14px;
+  font-size: 12px;
 
 }
 .material-icon-bw{
@@ -163,8 +192,9 @@ margin-bottom: 0;
 }
 .ability-title{
   display: inline-block;
-  width: 55%;
   text-align: left;
+  float: left;
+  padding-left: 25px;
 }
 .ability-score{
   float:right;
