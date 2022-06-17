@@ -73,28 +73,8 @@ background-size: cover;
   padding-top: 20px;
   text-align: center;
 }
-/* .down-arrow{
-  position:absolute;
-  height: 6rem;
-  width: 7.3rem;
-  right:10.3%;
-  bottom:0;
-  background-color: black;
-  display: block;
-} */
-/* .scroll-down{
-  position: absolute;
-  display: block;
-  z-index: 6;
-  height: 6rem;
-  right:10.5%;
-  width: 7.3rem;
-  bottom: 0;
-  background-color: #434242;
-  text-align: center;
-} */
 
-
+/* Navbar */
 .navbar{
   width:100%;
   margin:0 auto;
@@ -114,8 +94,10 @@ background-size: cover;
 }
 .resumeurl:hover{
   color: black;
-  
+
 }
+
+/* Profile  */
 .active{
   background-color: #08d9d6;
   color: #fff;
@@ -156,6 +138,8 @@ margin-bottom: 80px;
   height:auto;
   width: 100%;
 }
+
+/*Experience  */
 .exp{
   background-color: #f6f7d7;
   width:100%;
@@ -194,7 +178,7 @@ min-width: 280px;
 }
 }
 
-
+/* Skills */
 .material-icons{
   font-size: 20px;
 
@@ -223,6 +207,8 @@ min-width: 280px;
 .interest-description{
   padding-left: 2.5rem;
 }
+
+/* contact */
 .conthead{
 color: white;
 font-size: 4rem;
@@ -241,9 +227,6 @@ font-style: normal;
   margin-right: 10px;
 
 }
-.contact-row{
- justify-content: center;
-}
 
 .contact-link{
   color: #787272;
@@ -255,6 +238,19 @@ font-style: normal;
   text-decoration: underline;
 }
 
+
+/*carausel image css*/
+
+.carousel-image{
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+
+}
+
+.caro-item{
+  background-color: white;
+}
 
 
 
