@@ -96,19 +96,25 @@ background-size: cover;
 
 
 .navbar{
-  width:80%;
+  width:100%;
   margin:0 auto;
-  border-style: none groove groove groove;
-  border-width: 5px;
+
 
 }
 .nav-item{
   padding: 0 10px;
   margin: 0;
-  border-left-style: solid;
-  border-left-color: grey;
   border-width: 2px;
   font-weight: 500;
+}
+
+.resumeurl{
+  color: white;
+  font-size: 2rem;
+}
+.resumeurl:hover{
+  color: black;
+  
 }
 .active{
   background-color: #08d9d6;
@@ -181,10 +187,12 @@ margin-bottom: 10px;
   margin-left: auto;
 
 }
-@media (max-width: 767px)
+@media (max-width: 767px){
 .container {
   padding: 60px 20px;
-min-width: 280px;  }
+min-width: 280px;
+}
+}
 
 
 .material-icons{
